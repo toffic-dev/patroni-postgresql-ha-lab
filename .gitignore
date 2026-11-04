@@ -1,0 +1,40 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+secrets/
+*.secret.yml
+*.secret.yaml
+etcd.env
+patroni.yml
+config.yml
+
+# Private keys and credentials
+*.pem
+*.key
+
+# PostgreSQL data and local backups
+pgdata/
+postgres-data/
+backups/
+*.dump
+*.backup
+*.sql.gz
+*.tar.gz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
